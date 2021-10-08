@@ -19,7 +19,7 @@
 }
 
 Button:disabled {
-    background: #ccc;
+    background: #ccc !important;
     color: #000;
     cursor: not-allowed;
 }

@@ -78,7 +78,6 @@ class Quiz extends React.Component {
                 answerState: {[answerId]: 'error'},
                 results,
             })
-            console.log(this.state);
         }
     }
 

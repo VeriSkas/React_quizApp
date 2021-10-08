@@ -4,7 +4,6 @@ import './FinishedQuiz.css';
 import Button from '../UI/Button/Button';
 
 const FinishedQuiz = props => {
-    console.log(props);
     const counterSuccess = Object.keys(props.results).reduce((total, key) => {
         if (props.results[key] === 'success') {
             total++;
